@@ -1,0 +1,175 @@
+
+
+/*This CSS is to style the div name box*/
+#name {
+    background-color:cadetblue;
+    width: 25%;
+    margin-bottom: 5px;
+    margin-left: 15.5%;
+    height: 80px;
+    text-align: center;
+    
+}
+
+/* This will style the top border box */
+#topsection {
+    border: 5px solid rgb(60, 83, 83);
+    padding: 20px;
+    clear: both;
+    
+
+}
+
+#topcontactsection {
+    padding: 20px;
+    clear: both;
+}
+
+/* This CSS is to style the text inside of the div box*/
+h1.box {
+    
+    border: 3px;
+    border-style: solid;
+    border-color: cadetblue;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display:inline-block;
+    font-size: 40px;
+    line-height: 24px;
+}
+
+/* This CSS is to style the div that will contain the 3 links: About, Portfolio, Contact*/
+#navpage {
+    position:fixed;             
+    right: 0;
+    top: 95px;
+    width: 35%; 
+    height: 50px;
+       
+}
+/* This CSS is to style the links in the div ^ */
+.pages {
+    color:rgb(84, 111, 121);
+    font-size:20px;
+    float: left;
+    
+}
+
+
+#vertline2, #vertline3 {
+    border-left: 3px solid grey; 
+    height: 25px; 
+    float: left;
+}
+
+
+/* This will style the bottom border box */
+#botsection {
+    background-color: rgb(83, 109, 109);
+    border: 5px solid rgb(60, 83, 83);
+    padding: 10px;
+    height:425px;
+
+}
+
+/* This will style the inner bottom box */
+#info {
+    border: 1px solid rgb(53, 17, 17);
+    padding: 10px;
+    height: 95%;
+    width: 65%;
+    margin-left: 16%;
+    
+}
+
+img {
+    width: 186.5px;
+    height: 140px;
+    float: left;
+    padding: 10px;
+}
+
+p {
+    font-size: 19.5px;
+}
+
+.botcontactsection {
+    background-color: antiquewhite;
+    border: 5px solid antiquewhite;
+    padding: 10px;
+    height:425px;
+}
+.botcontact {
+    border: 1px solid rgb(53, 17, 17);
+    padding: 10px;
+    height: 100%;
+    width: 65%;
+    margin-left: 16%;
+    background-color: rgb(245, 245, 135);
+}
+
+
+#contact {
+    color: purple;
+    margin-left: 10px;
+}
+
+#namecontact {
+    margin-left: 10px;
+    color: purple;
+    
+}
+
+.formname {
+    margin-left: 10px;
+    
+}
+
+#nameemail {
+    margin-left: 10px;
+    color: purple;
+}
+
+#formemail {
+    margin-left: 10px;
+   
+}
+
+#namemessage {
+    margin-left: 10px;
+    color: purple;
+}
+
+#formmessage {
+    margin-left: 10px;
+    
+}
+
+textarea {
+    resize: none;
+}
+
+.botportfoliosection {
+    background-color: aliceblue;
+    border: 5px solid lightblue;
+    height: 500px;
+}
+
+#port {
+    display: inline-block;
+    padding: 20px;
+    
+}
+
+.botportfolio {
+    border: 2px solid lightblue;
+    height: 100%;
+    width: 75%;
+    margin-left: 16.5%;
+    
+}
+
+button {
+    margin-left: 1.25%;
+    margin-top: 1%;
+}
