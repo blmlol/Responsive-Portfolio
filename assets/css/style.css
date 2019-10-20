@@ -173,3 +173,90 @@ button {
     margin-left: 1.25%;
     margin-top: 1%;
 }
+
+@media screen and (max-width:980px) {
+    .botportfoliosection {
+        height:250px;
+
+    }
+    .botportfolio{
+        height:75%;
+        width:50%;
+        margin-left:12.5%;
+    }
+    .botcontact {
+        height:75%;
+        width:50%;
+        margin-left:12%;
+    }
+    .botcontactsection {
+        height:300px;
+    }
+    #botsection {
+        height:350px;
+
+    }
+    #info {
+        height: 85%;
+        width:50%;
+        margin-left:15%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .botportfoliosection {
+        height:200px;
+
+    }
+    .botportfolio{
+        height:65%;
+        width:40%;
+        margin-left:10.5%;
+    }
+    .botcontact {
+        height:65%;
+        width:40%;
+        margin-left:10%;
+    }
+    .botcontactsection {
+        height:250px;
+    }
+    #botsection {
+        height:300px;
+
+    }
+    #info {
+        height: 75%;
+        width:40%;
+        margin-left:12%;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .botportfoliosection {
+        height:150px;
+
+    }
+    .botportfolio{
+        height:55%;
+        width:30%;
+        margin-left:8.5%;
+    }
+    .botcontact {
+        height:55%;
+        width:30%;
+        margin-left:9%;
+    }
+    .botcontactsection {
+        height:200px;
+    }
+    #botsection {
+        height:250px;
+
+    }
+    #info {
+        height: 65%;
+        width:30%;
+        margin-left:10%;
+    }
+}
